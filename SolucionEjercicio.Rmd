@@ -70,7 +70,6 @@ library(robustbase)
 
 ```
 
-
 #### b. Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
 ```{r}
