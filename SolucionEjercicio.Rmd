@@ -69,3 +69,23 @@ library(robustbase)
 ?Animals2
 
 ```
+
+
+#### b. Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
+
+```{r}
+#Empezamos por 'mammals'
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+
+#Hacemos lo mismo con 'Animals2'
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+
+```
+
