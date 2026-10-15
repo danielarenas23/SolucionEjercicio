@@ -132,3 +132,11 @@ length(total)
 ```
 
 El tipo de animales que se observa son dinosaurios y animales escritos de forma distinta en ambos datasets, por ejemplo: Arctic fox - Artic fox o Patas monkey - Potar monkey.
+
+#### f. Determina la diferencia entre los animales que no aparecen en ambos conjuntos.
+
+- En *mammals* se escribe 'Arctic' con 'c', mientras que en *Animals2* se escribe sin la 'c'. De ahí la diferencia en Arctic fox vs Artic fox y Arctic ground squirrel vs Artic ground squirrel.
+
+- En *mammals* se refieren al mono patas como 'Patas monkey', mientras que en *Animals2* lo hacen como 'Potar monkey'. De igual forma, para referirse al topo, en *mammals* se refieren como 'Mole rat', pero en *Animals2* lo ponen como 'Mole'.
+
+- Los dinosaurios 'Diplodocus', 'Brachiosaurus' y 'Triceratops' están en *Animals2*, pero no están en *mammals*.
