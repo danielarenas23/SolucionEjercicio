@@ -51,4 +51,21 @@ language:
     solution: 'Solución. '
 ---
 
+### 1.Considera los conjuntos de datos **mammals** del paquete **MASS** y **Animals2** del paquete **robustbase**.
 
+```{r}
+#Cargamos primero los paquetes
+library(MASS)
+
+library(robustbase)
+```
+
+#### a. Mira la las características de ambos conjuntos usando la ayuda.
+
+```{r}
+#miramos las características usando '?'
+
+?mammals
+?Animals2
+
+```
