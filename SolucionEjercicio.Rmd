@@ -110,3 +110,25 @@ commonAnimals <-intersect(rownames(mammals), rownames(Animals2))
 commonAnimals
 length(commonAnimals)
 ```
+
+#### e. Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
+
+```{r}
+#Animales que están en mammals pero NO en Animals2
+solo_mammals<- setdiff(rownames(mammals), rownames(Animals2))
+print(solo_mammals)
+#Animales que están en Animals2 pero NO en mammals
+solo_Animals2<- setdiff(rownames(Animals2), rownames(mammals))
+solo_Animals2
+
+#Concatenamos ambos
+total<- c(solo_mammals, solo_Animals2)
+print(total)
+
+
+#Cuántos son?
+
+length(total)
+```
+
+El tipo de animales que se observa son dinosaurios y animales escritos de forma distinta en ambos datasets, por ejemplo: Arctic fox - Artic fox o Patas monkey - Potar monkey.
